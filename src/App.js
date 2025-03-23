@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-900 text-slate-200">
       <div className="max-w-4xl mx-auto pt-16 md:pt-24 px-6">
-        <h1 className="text-4xl md:text-6xl font-semibold mb-2 tracking-tight">Anushka Jadhav</h1>
+        <h1 className="text-4xl md:text-6xl font-semibold mb-2 tracking-tight hover:text-teal-400">
+          <a href="https://anushkajadhav.vercel.app/">Anushka Jadhav</a>
+        </h1>
         <p className="text-base md:text-xl text-slate-300 mb-4">Software Developer</p>
 
         <section className="mt-8">
@@ -23,17 +25,21 @@ function App() {
           <h2 className="text-2xl font-semibold border-b pb-2 border-slate-700">Projects</h2>
           <div className="mt-4 gap-4 grid grid-cols-1 md:grid-cols-2">
             {projects.map((project, index) => (
-              <a href={project.live} >
+              <a href={project.live} target="_blank" rel="noopener noreferrer" >
                 <div key={index} className="flex flex-col justify-between bg-[#112134cc] hover:bg-slate-800 p-4 rounded-lg shadow-lg h-full project">
                   <div>
-                    <h3 className="text-lg font-semibold mb-2 flex items-center gap-1 project-title">{project.name} <GoArrowUpRight className='icon' /></h3>
+                    <h3 className="text-lg font-semibold mb-2 flex items-center gap-1 project-title">
+                      {project.name} <GoArrowUpRight className='icon' />
+                    </h3>
                     <p className="text-slate-400 text-sm">{project.description}</p>
                   </div>
                   <div className="mt-4 flex">
-                    <a href={project.live} className="text-slate-500 hover:text-teal-400 mr-2 text-2xl">
+                    <a href={project.live} target="_blank" rel="noopener noreferrer"
+                      className="text-slate-500 hover:text-teal-400 mr-2 text-2xl">
                       <BiGlobe />
                     </a>
-                    <a href={project.github} className="text-slate-500  hover:text-teal-400 mr-2 text-2xl">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer"
+                      className="text-slate-500  hover:text-teal-400 mr-2 text-2xl">
                       <BiLogoGithub />
                     </a>
                   </div>
@@ -59,13 +65,16 @@ function App() {
             Feel free to reach out via email or check out my work on GitHub and LinkedIn!
           </p>
           <div className="flex justify-center text-slate-500 text-2xl gap-4">
-            <a href="mailto:anushkajadhav2882@gmail.com" className='hover:text-teal-400'>
+            <a href="mailto:anushkajadhav2882@gmail.com" target="_blank"
+              rel="noopener noreferrer" className='hover:text-teal-400'>
               <BiSolidEnvelope />
             </a>
-            <a href="https://github.com/jadhavanushka" className='hover:text-teal-400'>
+            <a href="https://github.com/jadhavanushka" target="_blank"
+              rel="noopener noreferrer" className='hover:text-teal-400'>
               <BiLogoGithub />
             </a>
-            <a href="https://linkedin.com/in/jadhav-anushka/" className='hover:text-teal-400'>
+            <a href="https://linkedin.com/in/jadhav-anushka/" target="_blank"
+              rel="noopener noreferrer" className='hover:text-teal-400'>
               <BiLogoLinkedinSquare />
             </a>
           </div>
@@ -77,8 +86,8 @@ function App() {
           © 2025 Anushka Jadhav. Built with React & Tailwind CSS.
         </span>
         <span>
-          Design inspired by <a href="https://brittanychiang.com" 
-          className="hover:underline hover:text-slate-400">Brittany Chiang</a>.
+          Design inspired by <a href="https://brittanychiang.com" target="_blank" rel="noopener noreferrer"
+            className="hover:underline hover:text-slate-400">Brittany Chiang</a>.
         </span>
       </footer>
 

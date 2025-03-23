@@ -11,7 +11,7 @@
 }
 
 .project:hover .project-title {
-  color: #2dd4bf  ;
+  color: #2dd4bf;
   transition: color 0.2s ease-in-out;
 }
 
