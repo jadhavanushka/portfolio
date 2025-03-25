@@ -111,6 +111,12 @@ const projects = [
     github: "https://github.com/jadhavanushka/Algorithm-Visualizer",
   },
   {
+    name: "Book Haven",
+    description: "A full-stack e-commerce platform for an online bookstore with Flask & MySQL.",
+    live: "https://bookhaven.alwaysdata.net",
+    github: "https://github.com/jadhavanushka/Bookstore-website",
+  },
+  {
     name: "Definity",
     description: "A dictionary app using Django and Merriam-Webster API.",
     live: "https://definity-8.vercel.app/",
@@ -121,12 +127,6 @@ const projects = [
     description: "Generates color palettes from images and features a hex color guessing game.",
     live: "https://colorcraftr.alwaysdata.net/",
     github: "https://github.com/jadhavanushka/ColorCraftr",
-  },
-  {
-    name: "Book Haven",
-    description: "A full-stack e-commerce platform for an online bookstore with Flask & MySQL.",
-    live: "https://bookhaven.alwaysdata.net",
-    github: "https://github.com/jadhavanushka/Bookstore-website",
   },
   {
     name: "Cakelicious",
