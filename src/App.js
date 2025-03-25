@@ -119,7 +119,7 @@ const projects = [
   {
     name: "ColorCraftr",
     description: "Generates color palettes from images and features a hex color guessing game.",
-    live: "https://color-craftr.vercel.app/",
+    live: "https://colorcraftr.alwaysdata.net/",
     github: "https://github.com/jadhavanushka/ColorCraftr",
   },
   {
