@@ -15,9 +15,9 @@ function App() {
         <section className="mt-8">
           <h2 className="text-2xl font-semibold border-b pb-2 border-slate-700">About me</h2>
           <p className="text-slate-400 mt-2 text-pretty">
-            I'm a software developer passionate about building web applications, with a strong focus on
-            frontend technologies. I enjoy creating interactive and functional experiences that blend
-            clean design with efficient, maintainable code.
+            I'm a software developer who builds web applications, mainly focusing on the frontend.
+            I like creating interfaces that are both easy to use and easy to maintain, with a balance between
+            good design and solid code.
           </p>
         </section>
 
